@@ -49,3 +49,9 @@ for (let i = 0; i < 16 * 16; i++) {
     );    
 };
 
+let r = Math.floor(Math.random() * 256);
+let g = Math.floor(Math.random() * 256);
+let b = Math.floor(Math.random() * 256);
+
+grid.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+
